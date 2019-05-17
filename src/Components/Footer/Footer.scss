@@ -1,0 +1,30 @@
+@import '../../css/variables';
+
+footer{
+    color: white;
+    min-height: 15vh;
+    background: $primary;
+
+    a{
+        color: white;
+    }
+
+    .logo{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    footer{
+
+        a{
+            color: white;
+        }
+
+        .logo{
+            width: 80%;
+        }
+    }
+
+}

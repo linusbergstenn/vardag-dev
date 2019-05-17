@@ -1,0 +1,12 @@
+.article-container{
+  flex-basis: 45%;
+  .placeholder-image{
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 800px){
+  .article-container{
+    flex-basis: 100%;
+  }
+}

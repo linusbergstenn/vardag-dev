@@ -1,0 +1,39 @@
+@import '../../css/variables';
+
+.navbar{
+  width: 100vw;
+  height: 10vh;
+  z-index: 2;
+  background: $primary;
+  #navbar-toggler{
+    .container-fluid{
+      width: 100% !important;
+      padding: 0 !important;
+      margin: 0 !important;
+    }
+  }
+  .collapse{
+    width: 100vw;
+  }
+  .logo{
+    width: 15vw;
+  }
+  #userLogo{
+    width: 50%;
+    align-items: center;
+  }
+    #user{
+      &:first-letter{
+        text-transform: uppercase;
+      }
+  }
+  .md-menu{
+    padding: 0 !important;
+  }
+  .sign-out{
+    transition: color .3s ease-in-out;
+    &:hover{
+      color: rgba($alt2, .6);
+    }
+  }
+}

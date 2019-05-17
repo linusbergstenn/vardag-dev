@@ -1,0 +1,11 @@
+.event-container{
+  .placeholder-image{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    align-self: center;
+    flex-shrink: 0;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,7 @@
+{
+ "URL": {
+   "DEV": "http://localhost:5002",
+   "PUBLISH": "http://altrankarlstad.com/vardag-api"
+ },
+  "MaxEnergy": 10
+}

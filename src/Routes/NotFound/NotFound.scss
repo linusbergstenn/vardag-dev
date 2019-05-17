@@ -1,0 +1,19 @@
+.NotFound{
+  display: flex;
+  flex-direction: column;
+  height: 40vh;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: center;
+
+  .logo{
+    height: 40%;
+    align-self: center;
+  }
+  .title{
+    align-self: center;
+  }
+}
+.NotFound.h{
+  height: 75vh;
+}

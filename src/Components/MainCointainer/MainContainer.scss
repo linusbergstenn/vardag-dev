@@ -1,0 +1,49 @@
+@import '../../css/variables';
+
+
+.main-container{
+  padding: 0  !important;
+  min-height: 75vh;
+  .container{
+    margin-top: 2rem;
+  }
+  &::before{
+    content: '';
+    position:absolute;
+    background: url("../../imgs/DotLine.svg") no-repeat;
+    left: 0;
+    top: 2%;
+    height: 100%;
+    width: 20%;
+  }
+
+  .signed-in-view{
+    color: $primary;
+    img{
+      width: 20%;
+      height: 20%;
+    }
+  }
+}
+
+@media screen and (max-width: 1700px){
+  .main-container{
+    &::before{
+      width: 13%;
+    }
+  }
+}
+@media screen and (max-width: 1508px){
+  .main-container{
+    &::before{
+      width: 12%;
+    }
+  }
+}
+@media screen and (max-width: 1024px){
+  .main-container{
+    &::before{
+      display: none;
+    }
+  }
+}

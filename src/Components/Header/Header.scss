@@ -1,0 +1,29 @@
+@import '../../css/variables';
+
+header{
+  padding: 0 !important;
+  height: 45vh;
+  background: url("../../imgs/headerbg.png") top;
+  background-size: cover;
+
+  .info-container{
+    color: white;
+    padding: 3.5rem !important;
+    position: relative !important;
+    left: 5% !important;
+    top: 10%;
+    margin: 0 !important;
+    background: rgba($primary, 0.75);
+    background-image: linear-gradient( 45deg, rgba(255,255,255,0), rgba(255,255,255, .15) );
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 1540px) {
+  header{
+    .info-container{
+      padding: 1.3rem !important;
+      top: 5%;
+    }
+  }
+}

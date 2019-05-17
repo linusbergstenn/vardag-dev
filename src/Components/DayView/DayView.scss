@@ -1,0 +1,27 @@
+.activity-list{
+  .no-activities{
+    text-align: center;
+    padding: 2em 0;
+  }
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  display:none;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(#000, .5);
+  border-radius:2em;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(#000, .8);
+}
